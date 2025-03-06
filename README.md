@@ -6,3 +6,5 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
 
+npg_5ETqFbH2AZaV
+postgresql://skillDb:npg_5ETqFbH2AZaV@ep-soft-mud-a83culhg-pooler.eastus2.azure.neon.tech/skillAi?sslmode=require
