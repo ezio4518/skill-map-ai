@@ -11,7 +11,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Skill Map Ai",
+<<<<<<< HEAD
   description: "Your personalized skill enhancement platform",
+=======
+  description: "",
+>>>>>>> origin
 };
 
 export default function RootLayout({ children }) {
