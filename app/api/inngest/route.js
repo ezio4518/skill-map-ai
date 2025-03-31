@@ -5,10 +5,6 @@ import { inngest } from "@/lib/inngest/client";
 export const { GET, POST, PUT } = serve({
   client: inngest,
   functions: [
-<<<<<<< HEAD
-    
-=======
-    /* your functions will be passed here later! */
->>>>>>> origin
+  
   ],
 });
