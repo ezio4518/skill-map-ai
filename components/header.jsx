@@ -19,9 +19,10 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Image from "next/image";
+import { checkUser } from "@/lib/checkUser";
 
-export default  function Header() {
-
+export default async function Header() {
+  await checkUser();
 
   return (
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
@@ -32,12 +33,12 @@ export default  function Header() {
             alt="Sensai Logo"
             width={200}
             height={60}
-            className="h-25  w-30  mx-0 object-contain"
+            className="h-12 py-1 w-auto object-contain"
           />
         </Link>
 
         {/* Action Buttons */}
-        <div className="flex items-center space-x-2 md:space-x-4 gap-4">
+        <div className="flex items-center space-x-2 md:space-x-4">
           <SignedIn>
             <Link href="/dashboard">
               <Button
