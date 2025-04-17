@@ -7,5 +7,5 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
 DATABASE_URL=postgresql://skillDb:npg_5ETqFbH2AZaV@ep-soft-mud-a83culhg-pooler.eastus2.azure.neon.tech/skillAi?sslmode=require
 
+GEMINI_API_KEY=AIzaSyDLoa5HDa6O4mOpeVA-AfjcwVKS7OHIsm4
 
-npg_5ETqFbH2AZaV
