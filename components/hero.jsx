@@ -30,7 +30,7 @@ const HeroSection = () => {
     <section className="w-full pt-36 md:pt-48 pb-10">
       <div className="space-y-6 text-center">
         <div className="space-y-6 mx-auto">
-          <h1 className="text-5xl  font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
+          <h1 className="text-5xl  font-bold md:text-6xl lg:text-7xl xl:text-8xl  animate-gradient">
             Your AI Career Coach for
             <br />
             Professional Success
@@ -46,11 +46,11 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          <Link href="">
+          {/* <Link href="">
             <Button size="lg" variant="outline" className="px-8">
               Watch Demo
             </Button>
-          </Link>
+          </Link> */}
         </div>
         <div className="hero-image-wrapper mt-5 md:mt-0">
           <div ref={imageRef} className="hero-image">
