@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    },
-    "typeRoots": ["./types"]  // optional: restrict TS from scanning node_modules/@types
+    }
   }
 }
