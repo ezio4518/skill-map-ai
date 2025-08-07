@@ -2,7 +2,7 @@ export const faqs = [
     {
       question: "What makes TalentTrend unique as a career development tool?",
       answer:
-        "Sensai combines AI-powered career tools with industry-specific insights to help you advance your career. Our platform offers three main features: an intelligent resume builder, a cover letter generator, and an adaptive interview preparation system. Each tool is tailored to your industry and skills, providing personalized guidance for your professional journey.",
+        "TalentTrend combines AI-powered career tools with industry-specific insights to help you advance your career. Our platform offers three main features: an intelligent resume builder, a cover letter generator, and an adaptive interview preparation system. Each tool is tailored to your industry and skills, providing personalized guidance for your professional journey.",
     },
     {
       question: "How does TalentTrend create tailored content?",
