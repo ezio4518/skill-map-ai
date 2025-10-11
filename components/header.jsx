@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { Button } from "./ui/button";
 import {
@@ -29,11 +27,11 @@ export default async function Header() {
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/">
           <Image
-            src={"/logo1.png"}
+            src={"/logo.png"}
             alt="Sensai Logo"
-            width={300}
-            height={100}
-            className=" py-1 w-auto object-contain"
+            width={200}
+            height={60}
+            className="h-12 py-1 w-auto object-contain"
           />
         </Link>
 
@@ -64,10 +62,10 @@ export default async function Header() {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-48">
                 <DropdownMenuItem asChild>
-                  {/* <Link href="/resume" className="flex items-center gap-2">
+                  <Link href="/resume" className="flex items-center gap-2">
                     <FileText className="h-4 w-4" />
                     Build Resume
-                  </Link> */}
+                  </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link
