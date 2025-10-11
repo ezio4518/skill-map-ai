@@ -28,10 +28,10 @@ export default async function Header() {
         <Link href="/">
           <Image
             src={"/logo.png"}
-            alt="Sensai Logo"
-            width={200}
-            height={60}
-            className="h-12 py-1 w-auto object-contain"
+            alt="TalentTrend Logo"
+            width={150}
+            height={80}
+            className="h-17  w-auto object-contain"
           />
         </Link>
 
